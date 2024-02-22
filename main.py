@@ -23,7 +23,7 @@ async def main() -> None:
     """Entry point
     """
     
-    token = "6857469921:AAHrbRWVI5bJ__fI0x_6CA-TMgFLoeCjqu4"
+    token = ""
     bot = Bot(token)
     dp = Dispatcher(storage=MemoryStorage())
     dp.include_router(handlers_router)
